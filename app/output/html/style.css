@@ -1,0 +1,54 @@
+
+.amount {
+    flex: 0 0 auto;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(216, 72, 57);
+}
+
+.image {
+    border: 0;
+    vertical-align: top;
+    height: 100%;
+}
+
+.name {
+    display: -webkit-box;
+    overflow: hidden;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    white-space: normal;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.image_div {
+    height: 100%;
+}
+
+.spoon_div {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    column-gap: 4px;
+    height: 32px;
+    display: inline-flex;
+    margin-inline-end: 126px;
+    padding-inline-end: 0.5rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 40px;
+}
+
